@@ -1,0 +1,106 @@
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index : 999;
+  }
+
+  .body_overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+  
+  .mainContainer {
+    width: 700px;
+    height: 70vh;
+    background: radial-gradient(circle at center top, #01567d 10%, #2181ad 50%, #01567d 100%);
+    position: absolute;
+  }
+
+  .cancelDiv {
+    width: 500px !important;
+    height: 30vh !important;
+  }
+  
+  .mainContainer .popupModal {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+  
+  .popupModal .modal_head {
+    width: 100%;
+    height: 15%;
+    top: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal_head h3 {
+    width: 95%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  
+  .modal_head p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  .modal_body {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .main_body_scroll {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .deleteBody {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* Styling the entire scrollbar */
+::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+  height: 12px; /* Height of the scrollbar (for horizontal scrollbars) */
+}
+
+/* Styling the track */
+::-webkit-scrollbar-track {
+  background: #f4f4f4; /* Color of the track */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Styling the thumb */
+::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle at center top, #01567d 10%, #2181ad 50%, #01567d 100%); /* Color of the thumb */
+  border-radius: 6px; /* Rounded corners */
+  border: 1px solid #f4f4f4; /* Padding for the thumb */
+}
+
+/* Styling the thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(circle at center top, #01567d 10%, #2181ad 50%, #01567d 100%); /* Darker color on hover */
+}

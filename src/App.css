@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 95vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.containerHome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableDivRow {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.headerDiv {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.1rem solid #000;
+  margin-bottom: 1%;
+}
+
+.addBtn {
+  width: 6.5rem;
+  height: 2.8rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: darkgreen;
+  color: rgb(251, 250, 251);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  height: auto;
+}
+
+.tableHead {
+  height: 2.4rem;
+  background: radial-gradient(circle at center top, #01567d 10%, #2181ad 50%, #01567d 100%);
+}
+
+.tableRow th {
+  border: 0.1rem solid #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+tbody {
+  width: 100%;
+  height: auto;
+  background-color: darkgray;
+}
+
+.dataRow {
+  height: 2.4rem;
+  text-align: center;
+}
+
+.dataRow td {
+  border : 0.1rem solid #fff;
+  padding: 0.4rem 0 0.4rem 0;
+}
+
+.dataRow th {
+  border : 0.1rem solid #fff;
+  padding: 0.4rem 0 0.4rem 0;
+}
+
+.btnTd {
+  width: 16rem;
+}
+
+.userBtn {
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color:darkgreen;
+  color: rgb(251, 250, 251);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.updateBtn {
+  margin-right: 0.1rem;
+}
+
+.colSpanRow {
+  height: 2.4rem;
+  text-align: center;
+}
